@@ -29,7 +29,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.mention} 😉️!</b>
 
-I'm The Nexa Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm Sauan Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
 
 Also I have more features! Please hit on **/help** to see them 😘!
 
@@ -53,10 +53,10 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/SauanLove"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Online_hangover"
                     )
                 ]
             ]
@@ -150,12 +150,12 @@ Made with ❤️ by **@{UPDATES_CHANNEL}**""",
             [
                 [
                     InlineKeyboardButton(
-                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ My Update Channel 🔰️", url=f"https://t.me/SauanLove"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Online_hangover"
                     )
                 ]
             ]
@@ -197,10 +197,10 @@ Enjoy 😌️❤️!""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔰️ Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔰️ Update Channel 🔰️", url=f"https://t.me/SauanLove"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/Online_hangover"
                     )
                 ]
             ]
