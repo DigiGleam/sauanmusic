@@ -65,7 +65,7 @@ async def ubkickme(_, message: Message):
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
   alive_pic = "cache/NexaUB.jpg"
-  await message.reply_photo(alive_pic, caption=f"**🌀 Nexa Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{cp_version}` \n ↳**Userbot Version:** `{nexaub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
+  await message.reply_photo(alive_pic, caption=f"**🌀 The Sauan is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{cp_version}` \n ↳**Userbot Version:** `{nexaub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
   await alive_msg.delete()
 
 
@@ -90,10 +90,10 @@ async def getlogs(client: NEXAUB, message: Message, app_):
     chat_pic = "cache/NexaUB.jpg"
     try:
       await logmsg.edit("`Creating Private Group Now...`!")
-      pmchat = await NEXAUB.create_group(f"Nexa Userbot's PM Logs", BOT_OWNER)
+      pmchat = await NEXAUB.create_group(f"The Sauan's PM Logs", BOT_OWNER)
       chat_id = pmchat.id
       await NEXAUB.set_chat_photo(chat_id=chat_id, photo=chat_pic)
-      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@NexaBotsUpdates**")
+      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@Online_hangover**")
       await client.send_message(chat_id, f"**Welcome to @{(await NEXAUB.get_me()).username}'s PM Log Group!** \nThis Chat will Contain All PM Messages Of **@{(await NEXAUB.get_me()).username}** ! \n\n\n`/setvar PM_LOG_CHAT_ID {chat_id}` \n\n ✪ **Please Copy and Send Above Command To Your @{BOT_USERNAME} Now**!")
     except Exception as lol:
       await logmsg.edit(f"`Can't Enable This Feature!, Something Wrong Happend!` \n\n**Error:** `{lol}`")
