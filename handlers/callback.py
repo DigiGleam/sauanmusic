@@ -73,11 +73,6 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 📦", url="https://github.com/DigiGleam/sauanmusic"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
                         "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
