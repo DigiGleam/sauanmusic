@@ -48,11 +48,6 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 📦", url="https://github.com/Itz-fork/Callsmusic-Plus"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
                         "🔰️ My Update Channel 🔰️", url=f"https://t.me/SauanLove"
                     ),
                     InlineKeyboardButton(
