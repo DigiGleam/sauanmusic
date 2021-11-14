@@ -32,9 +32,9 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 # If you need to broadcast messages as a copy or Forwarded Message
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 # Thumbnail URL
-THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/2ed47c81eda6b0624021d.jpg")
+THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/59686d169802281fe83eb.jpg")
 # Your Updates Channel! Don't Put Anything If you don't have one
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "NexaBotsUpdates")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "SauanLove")
 
 # Your ARQ API Key
 ARQ_API_KEY = getenv("ARQ_API_KEY")
@@ -44,7 +44,7 @@ ARQ_API_URL = "https://thearq.tech/"
 # Updator Configs
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/Itz-fork/Callsmusic-Plus")
+UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/DigiGleam/sauanmusic")
 U_BRANCH = "master"
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
 
