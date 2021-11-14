@@ -1,9 +1,9 @@
 {
-  "name": "CallsMusic-Plus",
+  "name": "SauanMusicBot",
   "description": "Telegram Voice Chat Music Player Bot Based On Callsmusic with Extrac Features!",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Itz-fork/Callsmusic-Plus",
-  "logo": "https://telegra.ph/file/7fa5bd949db5061e6f361.jpg",
+  "repository": "https://github.com/DigiGleam/sauanmusic",
+  "logo": "https://telegra.ph/file/59686d169802281fe83eb.jpg",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -66,17 +66,17 @@
     "UPSTREAM_REPO": {
       "description": "Github Repo Url. Only needed if you are using your own Fork!",
       "required": false,
-      "value": "https://github.com/Itz-fork/Callsmusic-Plus"
+      "value": "https://github.com/DigiGleam/sauanmusic"
     },
     "THUMB_URL": {
       "description": "Thumbnail Url To Use in play, search commands. Add this only if you need a custom one instead of default thumbnail",
       "required": false,
-      "value": "https://telegra.ph/file/2ed47c81eda6b0624021d.jpg"
+      "value": "https://telegra.ph/file/59686d169802281fe83eb.jpg"
     },
     "UPDATES_CHANNEL": {
       "description": "Your Telegram Channel's Username without '@' . Not Needed by Default!",
       "required": false,
-      "value": "NexaBotsUpdates"
+      "value": "SauanLove"
     }
   }
 }
