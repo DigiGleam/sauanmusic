@@ -37,7 +37,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"Shit! <b>❌ Flood Wait Error ❌ \n Sorry! user {user.first_name} couldn't join your group due to heavy join requests! Also make sure streamer account is not banned in your group. ✅"
-            "\n\nOr you can manually add @{(await USER.get_me()).username} to your Group!</b> 😉",
+            "\n\nOr you can manually add @TheSauan on your Group!</b> 😉",
         )
         return
     await message.reply_text(
@@ -57,6 +57,6 @@ async def strmleavegrp(USER, message):
     except:
         await message.reply_text(
             f"<b>Oops! Streamer Account Can't Leave Right Now! May Be Floodwait 🤔"
-            "\n\nOr You Can Manually Remove @{(await USER.get_me()).username} 🤗</b>",
+            "\n\nOr You Can Manually Remove @TheSauan 🤗</b>",
         )
         return
