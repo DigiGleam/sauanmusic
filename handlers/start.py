@@ -38,7 +38,7 @@ Made with ❤️ **@SauanLove**""",
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ Add Me To Your Group ➕", url=f"https://t.me/SauanBot?startgroup=true"
                     )
                 ],
                 [
